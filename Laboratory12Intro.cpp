@@ -1,5 +1,9 @@
-// Laboratory 13 Part 1.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+/* 
+* Program: Laboratory12Intro.cpp
+* Author: Aanika Mishra
+* Date: 12-5-2024
+* Description: This program reads in files and prints them back out
+*/
 
 #include <iostream>
 #include <fstream>
