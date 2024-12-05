@@ -39,7 +39,7 @@ void pressEnterToContinue()
     cin.clear();
     while (cin.get() != '\n') continue;
 }
-
+ 
 //Reads in the text
 bool readFromFile(string filename)
 {
