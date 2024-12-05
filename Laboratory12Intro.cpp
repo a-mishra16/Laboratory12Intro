@@ -20,7 +20,7 @@ int main()
     cout << "Lab 12 Intro to Text Files!\n";
     cout << "Enter filename: ";
     getline(cin, datafile);
-    bool status = readFromCSVFile(datafile);
+    bool status = readFromFile(datafile);
     if (status)
     {
         cout << "Success!\n";
@@ -63,7 +63,7 @@ bool readFromFile(string filename)
             break; //No more data to read
         }
 
-        cout << movieTitle << ": " << year << endl;
+        cout << movieTitle << year << endl;
     }
 
     //Close file and return
